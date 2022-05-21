@@ -19,19 +19,7 @@ public class sam {
 		driver.findElement(By.xpath("//input[@title='Search for products, brands and more']")).sendKeys("samsung mobiles",Keys.ENTER);
 		
 		 
-		/*
-		 * String mobiles = "//div[@class='_4rR01T']"; List<WebElement> samsungmobiles =
-		 * driver.findElements(By.xpath(mobiles));
-		 * 
-		 * List<String> si = new ArrayList<String>();
-		 * 
-		 * for (int i = 0; i <samsungmobiles.size(); i++) { String text =
-		 * samsungmobiles.get(i).getText(); si.add(text);
-		 * 
-		 * }
-		 * 
-		 * System.out.println(si);
-		 */
+		System.out.println("bala");
 		
 		String color = "Black";
 		String mobile = "//div[contains(text(),'"+color+"')]";
